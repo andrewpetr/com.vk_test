@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteTest_VK_COM" verbose="1">
+	<parameter name="browserName" value="chrome" />
+	<parameter name="phoneNum" value="+17204142915" />
+	<parameter name="email" value="vkandrewtest@gmail.com" />
+	<parameter name="password" value="test2016" />
+ 	
+    <test name="LogIn">
+		<parameter name="userName" value="Andrew" />
+		<classes>
+		    <class name="com.vk.test.TestLogIn" />
+		</classes>
+	</test>
+
+    <test name="SignUp">
+ 	    <parameter name="firstName" value="Petro"/>
+		<parameter name="lastName" value="Kozak"/>
+		<parameter name="sex" value="1"/>  <!-- "0" = Female, "1" = Male -->
+		<parameter name="birthDate" value="10,3,1990"/>
+		<classes>
+			<class name="com.vk.test.TestSignUp" />
+		</classes>
+	</test>
+	
+ 	<test name="EmptySignupField">
+		<classes>
+			<class name="com.vk.test.TestEmptyField" />
+		</classes>
+	</test>
+    
+    <test name="ForgotPass">
+		<classes>
+			<class name="com.vk.test.TestForgotPass" />
+		</classes>
+	</test>
+
+   	<test name="ClickingOnAllMenuLeftSideBar">
+   	    <parameter name = "My Profile" value = "My Profile"/>
+	    <parameter name = "News" value = "News"/>
+   	    <parameter name = "Messages" value = "Messages"/>
+   	    <parameter name = "Friends" value = "Friends"/>
+   	    <parameter name = "Communities" value = "Communities"/>
+   	    <parameter name = "Photos" value = "Photos"/>
+   	    <parameter name = "Audios" value = "Audios"/>
+   	    <parameter name = "Videos" value = "Videos"/>
+   	    <parameter name = "Games" value = "Games"/>
+		<classes>
+			<class name="com.vk.test.TestLeftSideBar" />
+		</classes>
+	</test>
+   
+	<test name="AddEndDeletePostOnWall">
+		<parameter name="post" value="Hello World!"/>
+		<parameter name="My Profile" value="My Profile"/>
+		<classes>
+			<class name="com.vk.test.TestAddPostOnWall" />
+		</classes>
+	</test>
+
+</suite>

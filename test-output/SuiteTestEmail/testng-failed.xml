@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteTestEmail]">
+  <parameter name="password" value="test2016"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="phoneNum" value="+17204142915"/>
+  <parameter name="userName" value="Andrew"/>
+  <test name="LogInCorrect">
+    <parameter name="password" value="test2016"/>
+    <parameter name="phoneNum" value="+17204142915"/>
+    <parameter name="userName" value="Andrew"/>
+    <classes>
+      <class name="com.vk.test.TestLogIn"/>
+    </classes>
+  </test> <!-- LogInCorrect -->
+</suite> <!-- Failed suite [SuiteTestEmail] -->

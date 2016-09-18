@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteTest_VK_COM" duration-ms="53843" started-at="2016-09-18T06:44:47Z" finished-at="2016-09-18T06:45:41Z">
+    <groups>
+    </groups>
+    <test name="LogIn" duration-ms="16781" started-at="2016-09-18T06:44:47Z" finished-at="2016-09-18T06:45:04Z">
+      <class name="com.vk.test.TestLogIn">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vk.test.TestLogIn@2d45ba]" name="beforeMethod" is-config="true" duration-ms="5953" started-at="2016-09-18T09:44:47Z" finished-at="2016-09-18T09:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithEmail(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vk.test.TestLogIn@2d45ba]" name="loginWithEmail" duration-ms="3953" started-at="2016-09-18T09:44:53Z" finished-at="2016-09-18T09:44:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vkandrewtest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vk.test.TestLogIn@2d45ba]" name="afterMethod" is-config="true" duration-ms="1594" started-at="2016-09-18T09:44:57Z" finished-at="2016-09-18T09:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vk.test.TestLogIn@2d45ba]" name="beforeMethod" is-config="true" duration-ms="672" started-at="2016-09-18T09:44:58Z" finished-at="2016-09-18T09:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithPhone(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vk.test.TestLogIn@2d45ba]" name="loginWithPhone" duration-ms="3484" started-at="2016-09-18T09:44:59Z" finished-at="2016-09-18T09:45:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+17204142915]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithPhone -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vk.test.TestLogIn@2d45ba]" name="afterMethod" is-config="true" duration-ms="1062" started-at="2016-09-18T09:45:03Z" finished-at="2016-09-18T09:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.vk.test.TestLogIn -->
+    </test> <!-- LogIn -->
+    <test name="SignUp" duration-ms="4218" started-at="2016-09-18T06:45:04Z" finished-at="2016-09-18T06:45:08Z">
+      <class name="com.vk.test.TestSignUp">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vk.test.TestSignUp@acaea5]" name="beforeTest" is-config="true" duration-ms="3500" started-at="2016-09-18T09:45:04Z" finished-at="2016-09-18T09:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Petro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kozak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,3,1990]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testSignUp()[pri:0, instance:com.vk.test.TestSignUp@acaea5]" name="testSignUp" duration-ms="484" started-at="2016-09-18T09:45:07Z" finished-at="2016-09-18T09:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.vk.test.TestSignUp@acaea5]" name="aftertest" is-config="true" duration-ms="218" started-at="2016-09-18T09:45:08Z" finished-at="2016-09-18T09:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.vk.test.TestSignUp -->
+    </test> <!-- SignUp -->
+    <test name="EmptySignupField" duration-ms="2219" started-at="2016-09-18T06:45:08Z" finished-at="2016-09-18T06:45:10Z">
+      <class name="com.vk.test.TestEmptyField">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vk.test.TestEmptyField@1832929]" name="beforeTest" is-config="true" duration-ms="531" started-at="2016-09-18T09:45:08Z" finished-at="2016-09-18T09:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginEmptyFoeld()[pri:0, instance:com.vk.test.TestEmptyField@1832929]" name="LoginEmptyFoeld" duration-ms="531" started-at="2016-09-18T09:45:09Z" finished-at="2016-09-18T09:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEmptyFoeld -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vk.test.TestEmptyField@1832929]" name="beforeTest" is-config="true" duration-ms="532" started-at="2016-09-18T09:45:09Z" finished-at="2016-09-18T09:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="SignupEmptyField()[pri:0, instance:com.vk.test.TestEmptyField@1832929]" name="SignupEmptyField" duration-ms="578" started-at="2016-09-18T09:45:10Z" finished-at="2016-09-18T09:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupEmptyField -->
+      </class> <!-- com.vk.test.TestEmptyField -->
+    </test> <!-- EmptySignupField -->
+    <test name="ForgotPass" duration-ms="1781" started-at="2016-09-18T06:45:10Z" finished-at="2016-09-18T06:45:12Z">
+      <class name="com.vk.test.TestForgotPass">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vk.test.TestForgotPass@19f99ea]" name="beforeTest" is-config="true" duration-ms="1281" started-at="2016-09-18T09:45:10Z" finished-at="2016-09-18T09:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginIncorrect()[pri:0, instance:com.vk.test.TestForgotPass@19f99ea]" name="loginIncorrect" duration-ms="422" started-at="2016-09-18T09:45:11Z" finished-at="2016-09-18T09:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIncorrect -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vk.test.TestForgotPass@19f99ea]" name="afterTest" is-config="true" duration-ms="62" started-at="2016-09-18T09:45:12Z" finished-at="2016-09-18T09:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.vk.test.TestForgotPass -->
+    </test> <!-- ForgotPass -->
+    <test name="ClickingOnAllMenuLeftSideBar" duration-ms="21750" started-at="2016-09-18T06:45:12Z" finished-at="2016-09-18T06:45:34Z">
+      <class name="com.vk.test.TestLeftSideBar">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="beforeTest" is-config="true" duration-ms="1671" started-at="2016-09-18T09:45:12Z" finished-at="2016-09-18T09:45:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+17204142915]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="clickingOnMenuAudios(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuAudios" duration-ms="3032" started-at="2016-09-18T09:45:14Z" finished-at="2016-09-18T09:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Audios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuAudios -->
+        <test-method status="PASS" signature="clickingOnMenuCommunities(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuCommunities" duration-ms="1015" started-at="2016-09-18T09:45:17Z" finished-at="2016-09-18T09:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Communities]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuCommunities -->
+        <test-method status="PASS" signature="clickingOnMenuFriends(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuFriends" duration-ms="1485" started-at="2016-09-18T09:45:18Z" finished-at="2016-09-18T09:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friends]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuFriends -->
+        <test-method status="PASS" signature="clickingOnMenuGames(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuGames" duration-ms="2093" started-at="2016-09-18T09:45:19Z" finished-at="2016-09-18T09:45:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuGames -->
+        <test-method status="PASS" signature="clickingOnMenuMessages(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuMessages" duration-ms="2188" started-at="2016-09-18T09:45:21Z" finished-at="2016-09-18T09:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Messages]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuMessages -->
+        <test-method status="PASS" signature="clickingOnMenuMyProfile(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuMyProfile" duration-ms="875" started-at="2016-09-18T09:45:24Z" finished-at="2016-09-18T09:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[My Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuMyProfile -->
+        <test-method status="PASS" signature="clickingOnMenuNews(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuNews" duration-ms="656" started-at="2016-09-18T09:45:24Z" finished-at="2016-09-18T09:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[News]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuNews -->
+        <test-method status="PASS" signature="clickingOnMenuPhotos(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuPhotos" duration-ms="1328" started-at="2016-09-18T09:45:25Z" finished-at="2016-09-18T09:45:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Photos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuPhotos -->
+        <test-method status="PASS" signature="clickingOnMenuVideos(java.lang.String)[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="clickingOnMenuVideos" duration-ms="4000" started-at="2016-09-18T09:45:26Z" finished-at="2016-09-18T09:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Videos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingOnMenuVideos -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vk.test.TestLeftSideBar@1ce4f0a]" name="afterTest" is-config="true" duration-ms="3375" started-at="2016-09-18T09:45:30Z" finished-at="2016-09-18T09:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.vk.test.TestLeftSideBar -->
+    </test> <!-- ClickingOnAllMenuLeftSideBar -->
+    <test name="AddEndDeletePostOnWall" duration-ms="6953" started-at="2016-09-18T06:45:34Z" finished-at="2016-09-18T06:45:41Z">
+      <class name="com.vk.test.TestAddPostOnWall">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.vk.test.TestAddPostOnWall@d62f43]" name="beforeSuite" is-config="true" duration-ms="4219" started-at="2016-09-18T09:44:43Z" finished-at="2016-09-18T09:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.vk.test.TestAddPostOnWall@d62f43]" name="beforeTest" is-config="true" duration-ms="1453" started-at="2016-09-18T09:45:34Z" finished-at="2016-09-18T09:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+17204142915]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addPostOnMyPage(java.lang.String, java.lang.String)[pri:0, instance:com.vk.test.TestAddPostOnWall@d62f43]" name="addPostOnMyPage" duration-ms="4782" started-at="2016-09-18T09:45:35Z" finished-at="2016-09-18T09:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello World!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPostOnMyPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vk.test.TestAddPostOnWall@d62f43]" name="afterTest" is-config="true" duration-ms="718" started-at="2016-09-18T09:45:40Z" finished-at="2016-09-18T09:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.vk.test.TestAddPostOnWall@d62f43]" name="afterSuite" is-config="true" duration-ms="2515" started-at="2016-09-18T09:45:41Z" finished-at="2016-09-18T09:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.vk.test.TestAddPostOnWall -->
+    </test> <!-- AddEndDeletePostOnWall -->
+  </suite> <!-- SuiteTest_VK_COM -->
+</testng-results>

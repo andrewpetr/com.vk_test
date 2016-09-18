@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteTest_VK_COM]">
+  <parameter name="lastName" value="Kozak"/>
+  <parameter name="Messages" value="Messages"/>
+  <parameter name="Communities" value="Communities"/>
+  <parameter name="Friends" value="Friends"/>
+  <parameter name="sex" value="0"/>
+  <parameter name="My Profile" value="My Profile"/>
+  <parameter name="phoneNum" value="+17204142915"/>
+  <parameter name="userName" value="Andrew"/>
+  <parameter name="birthDate" value="10,3,1990"/>
+  <parameter name="Videos" value="Videos"/>
+  <parameter name="Photos" value="Photos"/>
+  <parameter name="firstName" value="Petro"/>
+  <parameter name="password" value="test2016"/>
+  <parameter name="post" value="Hello World!"/>
+  <parameter name="News" value="News"/>
+  <parameter name="Audios" value="Audios"/>
+  <parameter name="Games" value="Games"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="email" value="vkandrewtest@gmail.com"/>
+  <test name="LogIn">
+    <parameter name="userName" value="Andrew"/>
+    <classes>
+      <class name="com.vk.test.TestLogIn"/>
+    </classes>
+  </test> <!-- LogIn -->
+  <test name="SignUp">
+    <parameter name="firstName" value="Petro"/>
+    <parameter name="lastName" value="Kozak"/>
+    <parameter name="sex" value="0"/>
+    <parameter name="birthDate" value="10,3,1990"/>
+    <classes>
+      <class name="com.vk.test.TestSignUp"/>
+    </classes>
+  </test> <!-- SignUp -->
+  <test name="EmptySignupField">
+    <classes>
+      <class name="com.vk.test.TestEmptyField"/>
+    </classes>
+  </test> <!-- EmptySignupField -->
+  <test name="ForgotPass">
+    <classes>
+      <class name="com.vk.test.TestForgotPass"/>
+    </classes>
+  </test> <!-- ForgotPass -->
+  <test name="ClickingOnAllMenuLeftSideBar">
+    <parameter name="Photos" value="Photos"/>
+    <parameter name="Messages" value="Messages"/>
+    <parameter name="Communities" value="Communities"/>
+    <parameter name="Friends" value="Friends"/>
+    <parameter name="News" value="News"/>
+    <parameter name="Audios" value="Audios"/>
+    <parameter name="Games" value="Games"/>
+    <parameter name="My Profile" value="My Profile"/>
+    <parameter name="Videos" value="Videos"/>
+    <classes>
+      <class name="com.vk.test.TestLeftSideBar"/>
+    </classes>
+  </test> <!-- ClickingOnAllMenuLeftSideBar -->
+  <test name="AddEndDeletePostOnWall">
+    <parameter name="post" value="Hello World!"/>
+    <parameter name="My Profile" value="My Profile"/>
+    <classes>
+      <class name="com.vk.test.TestAddPostOnWall"/>
+    </classes>
+  </test> <!-- AddEndDeletePostOnWall -->
+</suite> <!-- Failed suite [SuiteTest_VK_COM] -->
