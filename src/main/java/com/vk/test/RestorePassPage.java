@@ -6,13 +6,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 
-public class RestorePassPage extends StartPage{
+public class RestorePassPage extends Page{
 
-	@FindBy(how = How.XPATH, using = "//div[@id='forgot_panel']")
-	public WebElement restorePage;
 
 	public RestorePassPage(WebDriver webDriver) {
 		super(webDriver);
+		// TODO Auto-generated constructor stub
 	}
 
+	@FindBy(how = How.XPATH, using = "//div[@id='forgot_panel']")
+	public WebElement restorePage;
 }

@@ -7,7 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class HomePage extends StartPage {
+public class HomePage extends Page {
+
+	public HomePage(WebDriver webDriver) {
+		super(webDriver);
+		// TODO Auto-generated constructor stub
+	}
 
 	@FindBy(how = How.XPATH, using = "//div[@id='side_bar_inner']")
 	public WebElement leftSideBar;
@@ -66,11 +71,6 @@ public class HomePage extends StartPage {
 
 	@FindBy(how = How.XPATH, using = "//div[@id='apps_search']")
 	public WebElement gamesblock;
-
-	public HomePage(WebDriver webDriver) {
-		super(webDriver);
-		// TODO Auto-generated constructor stub
-	}
 
 	public void clickingOnAllLeftSideMenu(String linkOnElementOnLeftSideBar) {
 		for (WebElement element : listOfLeftSideBar) {

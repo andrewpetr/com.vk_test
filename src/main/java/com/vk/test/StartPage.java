@@ -8,12 +8,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class StartPage {
+public class StartPage extends Page{
 
-	protected WebDriver webDriver;
 
 	public StartPage(WebDriver webDriver) {
-		this.webDriver = webDriver;
+		super(webDriver);
+		// TODO Auto-generated constructor stub
 	}
 
 	@FindBy(how = How.XPATH, using = "//input[@id='index_email']")
